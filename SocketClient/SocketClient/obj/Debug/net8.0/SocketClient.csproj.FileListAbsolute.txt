@@ -1,0 +1,14 @@
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\bin\Debug\net8.0\SocketClient.exe
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\bin\Debug\net8.0\SocketClient.deps.json
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\bin\Debug\net8.0\SocketClient.runtimeconfig.json
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\bin\Debug\net8.0\SocketClient.dll
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\bin\Debug\net8.0\SocketClient.pdb
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\SocketClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\SocketClient.AssemblyInfoInputs.cache
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\SocketClient.AssemblyInfo.cs
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\SocketClient.csproj.CoreCompileInputs.cache
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\SocketClient.dll
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\refint\SocketClient.dll
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\SocketClient.pdb
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\SocketClient.genruntimeconfig.cache
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketClient\SocketClient\obj\Debug\net8.0\ref\SocketClient.dll

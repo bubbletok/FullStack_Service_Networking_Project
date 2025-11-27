@@ -1,0 +1,14 @@
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\bin\Debug\net8.0\SocketServer.exe
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\bin\Debug\net8.0\SocketServer.deps.json
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\bin\Debug\net8.0\SocketServer.runtimeconfig.json
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\bin\Debug\net8.0\SocketServer.dll
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\bin\Debug\net8.0\SocketServer.pdb
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\SocketServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\SocketServer.AssemblyInfoInputs.cache
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\SocketServer.AssemblyInfo.cs
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\SocketServer.dll
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\refint\SocketServer.dll
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\SocketServer.pdb
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\SocketServer.genruntimeconfig.cache
+C:\Users\ghdth\바탕 화면\대학교\4-2\풀스택서비스네트워킹\3_PROJECT\SocketServer\SocketServer\obj\Debug\net8.0\ref\SocketServer.dll

@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SocketClient
+{
+    class Client
+    {
+        static void Main(string[] args)
+        {
+            int num = 3;
+            ClientBase client;
+            switch(num)
+            {
+                case 3:
+                    client = new echo_client();
+                    break;
+                case 4:
+                    client = new echo_client();
+                    break;
+                default:
+                    client = new echo_client_complete();
+                    break;
+            }
+            client.Start();
+        }
+    }
+
+    public class ClientBase()
+    {
+        public virtual void Start()
+        {
+
+        }
+    }
+
+}
