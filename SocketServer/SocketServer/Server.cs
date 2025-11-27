@@ -8,11 +8,33 @@ using System.Threading.Tasks;
 
 namespace SocketServer
 {
-    internal class Server
+    class Server
     {
         static void Main(string[] args)
         {
-           
+            int num = 3;
+            ServerBase server;
+            switch (num)
+            {
+                case 3:
+                    server = new echo_server();
+                    break;
+                case 4:
+                    server = new echo_server_complete();
+                    break;
+                default:
+                    server = new echo_server_complete();
+                    break;
+            }
+            server.Start();
+        }
+    }
+
+    public class ServerBase
+    {
+        public virtual void Start()
+        {
+             
         }
     }
 }

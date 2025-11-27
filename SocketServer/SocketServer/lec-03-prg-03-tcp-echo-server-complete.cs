@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SocketServer
 {
-    internal class echo_server_complete
+    internal class echo_server_complete : ServerBase
     {
+        public override void Start()
+        {
+            
+        }
     }
 }

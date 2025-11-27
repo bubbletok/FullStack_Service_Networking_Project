@@ -5,9 +5,9 @@ using System.Text;
 
 namespace SocketServer
 {
-    internal class echo_server
+    internal class echo_server : ServerBase
     {
-        public void Start()
+        public override void Start()
         {
             try
             {

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ghdth\\바탕 화면\\대학교\\4-2\\풀스택서비스네트워킹\\3_PROJECT\\SocketServer\\SocketServer\\SocketServer.csproj",
+      "projectUniqueName": "C:\\Users\\ghdth\\바탕 화면\\대학교\\4-2\\풀스택서비스네트워킹\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\SocketServer.csproj",
       "projectName": "SocketServer",
-      "projectPath": "C:\\Users\\ghdth\\바탕 화면\\대학교\\4-2\\풀스택서비스네트워킹\\3_PROJECT\\SocketServer\\SocketServer\\SocketServer.csproj",
+      "projectPath": "C:\\Users\\ghdth\\바탕 화면\\대학교\\4-2\\풀스택서비스네트워킹\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\SocketServer.csproj",
       "packagesPath": "C:\\Users\\ghdth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ghdth\\바탕 화면\\대학교\\4-2\\풀스택서비스네트워킹\\3_PROJECT\\SocketServer\\SocketServer\\obj\\",
+      "outputPath": "C:\\Users\\ghdth\\바탕 화면\\대학교\\4-2\\풀스택서비스네트워킹\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
