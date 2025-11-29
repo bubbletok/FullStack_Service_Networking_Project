@@ -1,6 +1,7 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 
 namespace SocketClient
 {
@@ -20,7 +21,28 @@ namespace SocketClient
 
                 Socket clientSocket = new Socket(ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
                 clientSocket.Connect(localEndPoint);
-                
+
+                while (true)
+                {
+                    // [=start=]
+                    Console.Write("> ");
+                    string? sendMsg = Console.ReadLine();
+                    if (!string.IsNullOrEmpty(sendMsg))
+                    {
+                        byte[] messageSent = Encoding.UTF8.GetBytes(sendMsg);
+                        clientSocket.Send(messageSent);
+                    }
+
+                    byte[] messageReceived = new byte[1024];
+                    int byteRecv = clientSocket.Receive(messageReceived);
+                    Console.WriteLine($"> received: {Encoding.UTF8.GetString(messageReceived, 0, byteRecv)}");
+
+                    if (sendMsg == "quit") break;
+                    // [==end==]
+                }
+
+                clientSocket.Shutdown(SocketShutdown.Both);
+                clientSocket.Close();
             }
             catch (Exception e)
             {

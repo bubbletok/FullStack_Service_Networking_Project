@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace SocketServer
 {
@@ -10,7 +9,47 @@ namespace SocketServer
     {
         public override void Start()
         {
-            
+            try
+            {
+                Console.WriteLine("> echo-server is activated");
+
+                const string HOST = "127.0.0.1";
+                const ushort PORT = 65456;
+                IPHostEntry ipHost = Dns.GetHostEntry(HOST);
+                IPAddress ipAddr = ipHost.AddressList[0];
+                IPEndPoint endPoint = new IPEndPoint(ipAddr, PORT);
+
+                Socket listener = new Socket(ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+                listener.Bind(endPoint);
+                listener.Listen();
+
+                Socket clientSocket = listener.Accept();
+                IPEndPoint? clientEndPoint = clientSocket.RemoteEndPoint as IPEndPoint;
+                Console.WriteLine($"> client connected by IP address {clientEndPoint?.Address} with Port number {clientEndPoint?.Port}");
+
+                while (true)
+                {
+                    // [=start=]
+                    byte[] bytes = new byte[1024];
+                    int numByte = clientSocket.Receive(bytes);
+                    string? data = Encoding.UTF8.GetString(bytes, 0, numByte);
+                    Console.WriteLine($"> echoed: {data}");
+                    clientSocket.Send(Encoding.UTF8.GetBytes(data));
+                    if (data == "quit") break;
+                    // [==end==]
+                }
+
+                clientSocket.Shutdown(SocketShutdown.Both);
+                clientSocket.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            finally
+            {
+                Console.WriteLine("> echo-server is de-activated");
+            }
         }
     }
 }
