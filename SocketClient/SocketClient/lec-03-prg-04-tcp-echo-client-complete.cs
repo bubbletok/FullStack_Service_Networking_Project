@@ -24,7 +24,6 @@ namespace SocketClient
 
                 while (true)
                 {
-                    // [=start=]
                     Console.Write("> ");
                     string? sendMsg = Console.ReadLine();
                     if (!string.IsNullOrEmpty(sendMsg))
@@ -38,7 +37,6 @@ namespace SocketClient
                     Console.WriteLine($"> received: {Encoding.UTF8.GetString(messageReceived, 0, byteRecv)}");
 
                     if (sendMsg == "quit") break;
-                    // [==end==]
                 }
 
                 clientSocket.Shutdown(SocketShutdown.Both);
