@@ -22,7 +22,8 @@ namespace SocketServer
                 listener.Listen();
 
                 Socket clientSocket = listener.Accept();
-                Console.WriteLine($" client connected by IP address {0} with Port number {1}");
+                IPEndPoint? clientEndPoint = clientSocket.RemoteEndPoint as IPEndPoint;
+                Console.WriteLine($" client connected by IP address {clientEndPoint?.Address} with Port number {clientEndPoint?.Port}");
 
                 while (true)
                 {
