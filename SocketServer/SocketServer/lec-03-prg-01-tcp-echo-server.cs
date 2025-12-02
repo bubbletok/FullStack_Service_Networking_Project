@@ -9,46 +9,36 @@ namespace SocketServer
     {
         public override void Start()
         {
-            try
+            const string HOST = "127.0.0.1";
+            const ushort PORT = 65456;
+            IPHostEntry ipHost = Dns.GetHostEntry(HOST);
+            IPAddress ipAddr = ipHost.AddressList[0];
+            IPEndPoint endPoint = new IPEndPoint(ipAddr, PORT);
+
+            Socket listener = new Socket(ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+            listener.Bind(endPoint);
+            listener.Listen();
+
+            Socket clientSocket = listener.Accept();
+            IPEndPoint? clientEndPoint = clientSocket.RemoteEndPoint as IPEndPoint;
+            Console.WriteLine($" client connected by IP address {clientEndPoint?.Address} with Port number {clientEndPoint?.Port}");
+
+            while (true)
             {
-                const string HOST = "127.0.0.1";
-                const ushort PORT = 65456;
-                IPHostEntry ipHost = Dns.GetHostEntry(HOST);
-                IPAddress ipAddr = ipHost.AddressList[0];
-                IPEndPoint endPoint = new IPEndPoint(ipAddr, PORT);
+                byte[] bytes = new byte[1024];
+                int numByte = clientSocket.Receive(bytes);
+                string? data = Encoding.ASCII.GetString(bytes, 0, numByte); ;
+                Console.WriteLine($"> echoed: {data}");
 
-                Socket listener = new Socket(ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-                listener.Bind(endPoint);
-                listener.Listen();
+                byte[] message = Encoding.ASCII.GetBytes(data);
+                clientSocket.Send(message);
 
-                Socket clientSocket = listener.Accept();
-                IPEndPoint? clientEndPoint = clientSocket.RemoteEndPoint as IPEndPoint;
-                Console.WriteLine($" client connected by IP address {clientEndPoint?.Address} with Port number {clientEndPoint?.Port}");
-
-                while (true)
-                {
-                    byte[] bytes = new byte[1024];
-                    int numByte = clientSocket.Receive(bytes);
-                    string? data = Encoding.ASCII.GetString(bytes, 0, numByte); ;
-                    Console.WriteLine($"> echoed: {data}");
-
-                    byte[] message = Encoding.ASCII.GetBytes(data);
-                    clientSocket.Send(message);
-
-                    if (data == "quit") break;
-                }
-
-                clientSocket.Shutdown(SocketShutdown.Both);
-                clientSocket.Close();
+                if (data == "quit") break;
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-            finally
-            {
-                Console.WriteLine("> echo-server is de-activated");
-            }
+
+            clientSocket.Shutdown(SocketShutdown.Both);
+            clientSocket.Close();
+            Console.WriteLine("> echo-server is de-activated");
         }
     }
 }
