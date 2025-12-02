@@ -29,14 +29,12 @@ namespace SocketServer
 
                 while (true)
                 {
-                    // [=start=]
                     byte[] bytes = new byte[1024];
                     int numByte = clientSocket.Receive(bytes);
                     string? data = Encoding.UTF8.GetString(bytes, 0, numByte);
                     Console.WriteLine($"> echoed: {data}");
                     clientSocket.Send(Encoding.UTF8.GetBytes(data));
                     if (data == "quit") break;
-                    // [==end==]
                 }
 
                 clientSocket.Shutdown(SocketShutdown.Both);

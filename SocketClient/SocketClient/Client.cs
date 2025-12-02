@@ -10,7 +10,7 @@ namespace SocketClient
     {
         static void Main(string[] args)
         {
-            int num = 3;
+            int num = 4;
             ClientBase client;
             switch(num)
             {
