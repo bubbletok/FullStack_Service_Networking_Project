@@ -12,7 +12,7 @@ namespace SocketServer
     {
         static void Main(string[] args)
         {
-            int num = 6;
+            int num = 8;
             ServerBase server;
             switch (num)
             {
@@ -27,6 +27,9 @@ namespace SocketServer
                     break;
                 case 6:
                     server = new echo_server_multithread();
+                    break;
+                case 8:
+                    server = new echo_server_multithread_chat();
                     break;
                 default:
                     server = new echo_server_complete();

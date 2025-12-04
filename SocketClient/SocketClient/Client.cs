@@ -18,7 +18,7 @@ namespace SocketClient
                     client = new echo_client();
                     break;
                 case 4:
-                    client = new echo_client();
+                    client = new echo_client_complete();
                     break;
                 case 7:
                     client = new echo_client_multithread();

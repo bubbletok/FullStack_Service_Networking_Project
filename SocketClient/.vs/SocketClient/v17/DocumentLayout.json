@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketClient\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketclient\\socketclient\\lec-03-prg-07-tcp-echo-client-multithread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|solutionrelative:socketclient\\lec-03-prg-07-tcp-echo-client-multithread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketclient\\socketclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|solutionrelative:socketclient\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketclient\\socketclient\\lec-03-prg-02-tcp-echo-client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|solutionrelative:socketclient\\lec-03-prg-02-tcp-echo-client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketclient\\socketclient\\lec-03-prg-04-tcp-echo-client-complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|solutionrelative:socketclient\\lec-03-prg-04-tcp-echo-client-complete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketclient\\socketclient\\lec-03-prg-02-tcp-echo-client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B2BA6C-7229-425A-99CC-C78A064B1CC7}|SocketClient\\SocketClient.csproj|solutionrelative:socketclient\\lec-03-prg-02-tcp-echo-client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lec-03-prg-07-tcp-echo-client-multithread.cs",
+              "DocumentMoniker": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketClient\\SocketClient\\lec-03-prg-07-tcp-echo-client-multithread.cs",
+              "RelativeDocumentMoniker": "SocketClient\\lec-03-prg-07-tcp-echo-client-multithread.cs",
+              "ToolTip": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketClient\\SocketClient\\lec-03-prg-07-tcp-echo-client-multithread.cs",
+              "RelativeToolTip": "SocketClient\\lec-03-prg-07-tcp-echo-client-multithread.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:38:07.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -36,27 +53,27 @@
               "RelativeDocumentMoniker": "SocketClient\\lec-03-prg-04-tcp-echo-client-complete.cs",
               "ToolTip": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketClient\\SocketClient\\lec-03-prg-04-tcp-echo-client-complete.cs",
               "RelativeToolTip": "SocketClient\\lec-03-prg-04-tcp-echo-client-complete.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T08:27:07.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketClient\\SocketClient\\Client.cs",
               "RelativeDocumentMoniker": "SocketClient\\Client.cs",
               "ToolTip": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketClient\\SocketClient\\Client.cs",
               "RelativeToolTip": "SocketClient\\Client.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T08:29:42.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "lec-03-prg-02-tcp-echo-client.cs",
               "DocumentMoniker": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketClient\\SocketClient\\lec-03-prg-02-tcp-echo-client.cs",
               "RelativeDocumentMoniker": "SocketClient\\lec-03-prg-02-tcp-echo-client.cs",
