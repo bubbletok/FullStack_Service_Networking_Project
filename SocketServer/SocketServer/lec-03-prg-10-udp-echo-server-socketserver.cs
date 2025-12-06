@@ -24,14 +24,12 @@ namespace SocketServer
 
                     while (true)
                     {
-                        // [=start=]
                         byte[] bytes = new byte[1024];
                         EndPoint remoteEndPoint = new IPEndPoint(IPAddress.Any, 0);
                         int numByte = serverSocket.ReceiveFrom(bytes, ref remoteEndPoint);
                         string? data = Encoding.UTF8.GetString(bytes, 0, numByte).Trim();
                         Console.WriteLine($"> echoed: {data}");
                         serverSocket.SendTo(Encoding.UTF8.GetBytes(data), remoteEndPoint);
-                        // [==end==]
                     }
                 }
             }

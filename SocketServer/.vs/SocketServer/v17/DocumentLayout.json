@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "SocketServer\\lec-03-prg-10-udp-echo-server-socketserver.cs",
               "ToolTip": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\lec-03-prg-10-udp-echo-server-socketserver.cs",
               "RelativeToolTip": "SocketServer\\lec-03-prg-10-udp-echo-server-socketserver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T08:09:29.719Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "SocketServer\\lec-03-prg-08-tcp-echo-server-multithread-chat.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAwBkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T06:02:29.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T06:02:29.604Z"
             },
             {
               "$type": "Document",

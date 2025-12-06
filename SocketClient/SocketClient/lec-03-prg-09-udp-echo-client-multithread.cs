@@ -20,14 +20,12 @@ namespace SocketClient
 
                 using (Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
                 {
-                    // Create a receive handler and set to exit the thread, then execute the thread
                     Thread clientThread = new Thread(() => RecvHandler(clientSocket));
                     clientThread.IsBackground = true;
                     clientThread.Start();
 
                     while (true)
                     {
-                        // [=start=]
                         Console.Write("> ");
                         string? sendMsg = Console.ReadLine();
                         if (!string.IsNullOrEmpty(sendMsg))
@@ -36,7 +34,6 @@ namespace SocketClient
                             clientSocket.SendTo(messageSent, remoteEndPoint);
                         }
                         if (sendMsg == "quit") break;
-                        // [==end==]
                     }
                 }
             }
@@ -50,7 +47,6 @@ namespace SocketClient
             }
         }
 
-        // Create a separate receive handler
         private void RecvHandler(Socket clientSocket)
         {
             try
