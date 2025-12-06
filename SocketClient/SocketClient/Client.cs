@@ -10,7 +10,7 @@ namespace SocketClient
     {
         static void Main(string[] args)
         {
-            int num = 7;
+            int num = 9;
             ClientBase client;
             switch(num)
             {
@@ -22,6 +22,9 @@ namespace SocketClient
                     break;
                 case 7:
                     client = new echo_client_multithread();
+                    break;
+                case 9:
+                    client = new udp_echo_client_multithread();
                     break;
                 default:
                     client = new echo_client_complete();

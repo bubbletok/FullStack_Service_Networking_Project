@@ -20,6 +20,8 @@ namespace SocketClient
 
                 using (Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
                 {
+                    clientSocket.Bind(new IPEndPoint(IPAddress.Any, 0));
+
                     Thread clientThread = new Thread(() => RecvHandler(clientSocket));
                     clientThread.IsBackground = true;
                     clientThread.Start();
