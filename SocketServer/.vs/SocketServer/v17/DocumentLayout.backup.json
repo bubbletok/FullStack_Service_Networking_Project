@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketserver\\socketserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|solutionrelative:socketserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketserver\\socketserver\\lec-03-prg-10-udp-echo-server-socketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|solutionrelative:socketserver\\lec-03-prg-10-udp-echo-server-socketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketserver\\socketserver\\lec-03-prg-08-tcp-echo-server-multithread-chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|solutionrelative:socketserver\\lec-03-prg-08-tcp-echo-server-multithread-chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketserver\\socketserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|solutionrelative:socketserver\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC781799-B80A-46BB-9813-114134A02C79}|SocketServer\\SocketServer.csproj|c:\\users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_project\\fullstack_service_networking_project\\socketserver\\socketserver\\lec-03-prg-01-tcp-echo-server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lec-03-prg-10-udp-echo-server-socketserver.cs",
+              "DocumentMoniker": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\lec-03-prg-10-udp-echo-server-socketserver.cs",
+              "RelativeDocumentMoniker": "SocketServer\\lec-03-prg-10-udp-echo-server-socketserver.cs",
+              "ToolTip": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\lec-03-prg-10-udp-echo-server-socketserver.cs",
+              "RelativeToolTip": "SocketServer\\lec-03-prg-10-udp-echo-server-socketserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T08:09:29.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,27 +57,26 @@
               "RelativeDocumentMoniker": "SocketServer\\lec-03-prg-08-tcp-echo-server-multithread-chat.cs",
               "ToolTip": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\lec-03-prg-08-tcp-echo-server-multithread-chat.cs",
               "RelativeToolTip": "SocketServer\\lec-03-prg-08-tcp-echo-server-multithread-chat.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAArwAkAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwBkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T06:02:29.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\Server.cs",
               "RelativeDocumentMoniker": "SocketServer\\Server.cs",
               "ToolTip": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\Server.cs",
               "RelativeToolTip": "SocketServer\\Server.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T08:42:37.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T08:42:37.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "lec-03-prg-01-tcp-echo-server.cs",
               "DocumentMoniker": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\lec-03-prg-01-tcp-echo-server.cs",
               "RelativeDocumentMoniker": "SocketServer\\lec-03-prg-01-tcp-echo-server.cs",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "lec-03-prg-03-tcp-echo-server-complete.cs",
               "DocumentMoniker": "C:\\Users\\ghdth\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD559\uAD50\\4-2\\\uD480\uC2A4\uD0DD\uC11C\uBE44\uC2A4\uB124\uD2B8\uC6CC\uD0B9\\3_PROJECT\\FullStack_Service_Networking_Project\\SocketServer\\SocketServer\\lec-03-prg-03-tcp-echo-server-complete.cs",
               "RelativeDocumentMoniker": "SocketServer\\lec-03-prg-03-tcp-echo-server-complete.cs",
