@@ -12,7 +12,7 @@ namespace SocketServer
     {
         static void Main(string[] args)
         {
-            int num = 10;
+            int num = 11;
             ServerBase server;
             switch (num)
             {
@@ -33,6 +33,9 @@ namespace SocketServer
                     break;
                 case 10:
                     server = new udp_echo_server_socketserver();
+                    break;
+                case 11:
+                    server = new udp_echo_server_socketserver_chat();
                     break;
                 default:
                     server = new echo_server_complete();
